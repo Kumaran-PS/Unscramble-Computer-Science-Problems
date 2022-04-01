@@ -1,0 +1,70 @@
+    Run Time Analysis (Worst Case Big O Notation) - Resubmission after changes
+ _____________________________________________________
+
+
+Task 0 :
+	
+	# Contains two print statements (for fetching first and last records).
+	# Contains no loops and hence constant time.
+	# Big O Notation -- O(1).
+	
+---------------------------------------
+
+Task 1 :(Resubmission - this time using set and not list :) )
+
+	# Contains print statements to find unique numbers.
+	# Contains two for loops , each running n times (Total 2n times).
+	# Big O Notation -- O(n).
+	
+---------------------------------------
+
+Task 2 :
+
+	# To find number which spent longest time.
+	# Contains two for loops each running n times (Total 2n times).
+	# Big O Notation -- O(n).
+	
+---------------------------------------
+
+Task 3 :
+
+	Part A :
+	
+	# To find codes of numbers from banglore.
+	# Contains for loop with if conditions to fetch all numbers called from "080" bangalore code.
+	# mobile numbers identied by a space between them , telephone numbers identified as it starts with 0 and ends with ")" , and telemarketers are identied as it starts with 140.
+	# Sorting the above obtained list takes worst case time complexity - O(nlogn) . 
+	# Additional for loop to print the obtained list.
+	# Big O Notation (including sorting)-- O(nlogn).
+	
+	
+	Part B :
+	
+	# To find percent of fixed line banglore from all calls.
+	# Contains a for loop with if conditions to isolate bangalore code and non bangalore code.
+	# Big O Notation -- O(n).
+	
+---------------------------------------
+
+Task 4 :
+
+	# To find telemarketers.
+	# Contains two for loops to isolate telemarketers and non telemarketers each running n times (Total 2n times).
+	# Sorting lexicographically requires worst case time complexity - O(nlogn).
+	# Third for loop is to print the list of telemarketers. 
+	# Big O Notation (including sorting)-- O(nlogn).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
